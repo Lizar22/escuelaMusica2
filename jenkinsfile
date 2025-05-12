@@ -16,7 +16,7 @@ pipeline {
         }
         stage('Push image') {
             steps {
-                sh 'docker push lizar22/toqueneldom:v1.02'
+                sh 'docker push lizar22/toqueneldom:tagname'
             }
         }
         stage('Run Container') {
