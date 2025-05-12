@@ -11,12 +11,12 @@ pipeline {
         }
         stage('Tag image') {
             steps {
-                sh 'docker tag toqueneldom:latest lizar22/toqueneldom:v1.02'
+                sh 'docker tag toqueneldom lizar22/toqueneldom:v1.02'
             }
         }
         stage('Push image') {
             steps {
-                sh 'docker push lizar22/toqueneldom:tagname'
+                sh 'docker push lizar22/toqueneldom:v1.02'
             }
         }
         stage('Run Container') {
