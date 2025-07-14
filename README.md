@@ -10,11 +10,6 @@ Welcome to the new website project for the _Aprendiendo a hacer ruido_ online mu
 <br>
 
 
-## 🔁 Flowchart
- ![Flowchart](/assets/images/Diagrama%20de%20flujo.PNG)
-
-<br>
-
 ## 📄 Stages and Pages
 
 - Main Page  
