@@ -61,12 +61,12 @@ docker
  
 ◽ Step 2: This command builds a Docker image from the Dockerfile of the project.
 ```docker
-docker build -t escuela-musica .
+docker build -t toqueneldom .
 ```
 
 ◽ Step 3: This command runs a container from that newly created image.
 ```docker
-docker run -d -p 8080:80 escuela-musica
+docker run -d --name toqueneldom -p 8080:80 toqueneldom
 ```
 <br>
 
